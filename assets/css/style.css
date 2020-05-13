@@ -1,0 +1,109 @@
+.header-items{
+  max-width: 800px;
+	margin: 0 auto;
+	display: flex;	
+  justify-content: space-between;
+}
+.logo-mrc{
+  color: black;
+  font-family: "Cabin Sketch";
+  font-size: 25pt;
+  margin: 1%;
+  color: rgb(63, 30, 141);;
+}
+.btn {  
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;  
+}
+.items-btn{  
+  cursor: pointer;
+}
+
+.items-btn:hover, .items-btn:focus {
+  background:rgb(63, 30, 141);  
+}
+.dropdown:a:hover {background-color: #ddd;
+}
+
+.btn-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px white;
+  right: 0;
+  z-index: 1;
+}
+
+.btn-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display: block;}
+
+.menu-nav {
+  justify-content: flex-end;
+}
+
+#header-img {
+  background-image: url("/logo.png");
+  background-position: left;
+  margin: 0 0 10px 10px;
+  
+}
+.banner{
+  background-image: url("/assets/images/keyboard-computer-keys-white.jpg");
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 60px 20px;
+}
+.text-banner h1{
+  font-family: "Poppins" , Helvetica,Arial,Lucida,sans-serif; 
+  font-size: 26pt;
+  text-align: center;
+  text-shadow: 0em 0.08em 0em rgba(0,0,0,0.4)!important;
+  color: rgb(63, 30, 141);
+}
+.text-banner p {
+  font-family: "Poppins" ,Helvetica, Arial ,sans-serif;
+  font-size: 20px;
+  color: rgb(63, 30, 141);
+  text-shadow: 0em 0.08em 0em rgba(0,0,0,0.4)!important;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 40px 0 10px;
+  color: rgb(51, 46, 46);
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  font-size: 14pt;
+}
+
+@media (max-width: 600px) {
+  div {
+    background:white;    
+  }
+
+  .text-banner {
+    text-align: left;
+  }
+}
+
+.icons img{
+  border-radius: 100%;
+}
+
