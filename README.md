@@ -1,0 +1,2 @@
+# mypage
+For educational purposes
