@@ -1,6 +1,6 @@
 # Projeto criado para testar conhecimentos em Bootstrap.
 
-Biblioteca e Tecnologias utilizadas:
+Biblioteca e tecnologias utilizadas:
 - Bootstrap;
 - HTML;
 - CSS;
