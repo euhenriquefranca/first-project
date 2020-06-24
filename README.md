@@ -1,9 +1,10 @@
 # Projeto criado para testar conhecimentos em Bootstrap.
 
-Biblioteca e tecnologias utilizadas:
+Biblioteca e Tecnologias utilizadas:
 - Bootstrap;
 - HTML;
 - CSS;
+- JavaScript
 
 ```css
 .btn-content{
@@ -16,5 +17,5 @@ Biblioteca e tecnologias utilizadas:
   right: 0;
   z-index: 1;
 }
-
+```
 ![](https://i.imgur.com/XgyoxyS.png)
